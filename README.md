@@ -4,4 +4,4 @@
 
 It’s aimed squarely at beginners who want to learn to build real iOS apps, but struggle to find a good, free course that can help them achieve their goals. If that’s you, welcome – I hope you’re ready to show the iOS world what you’re made of!
 
-This repository also contains code to all projects as well as solutions to Paul's challenges.
+This repository contains code to all projects as well as solutions to Paul's challenges.
