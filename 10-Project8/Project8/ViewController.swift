@@ -203,15 +203,16 @@ class ViewController: UIViewController {
         guard let buttonTitle = sender.titleLabel?.text else {return}
         currentAnswer.text = currentAnswer.text?.appending(buttonTitle)
         activatedButtons.append(sender)
-        sender.isHidden = true
+        //sender.isHidden = true
+        sender.alpha = 0.0
     }
-    
     
     @objc func clearTapped(_ sender: UIButton) {
         currentAnswer.text = ""
         
         for button in activatedButtons {
-            button.isHidden = false
+            //button.isHidden = false
+            button.alpha = 1
         }
         
         activatedButtons.removeAll()
@@ -260,7 +261,5 @@ class ViewController: UIViewController {
             btn.isHidden = false
         }
     }
-    
-    
 }
 

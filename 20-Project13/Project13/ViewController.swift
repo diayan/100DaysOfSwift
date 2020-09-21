@@ -26,6 +26,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        imageView.alpha = 0
+        
         title = "Instafilter"
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(importPicture))
         
@@ -43,7 +45,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        guard let image = info[.editedImage] as? UIImage else {return}
+        guard let image = info[.editedImage] as? UIImage else { return }
         
         dismiss(animated: true)
         currentImage = image
@@ -97,6 +99,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
         
         guard let image = imageView.image else {return}
         
+        
         UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(_ :didFinishSavingWithError: contextInfo:)), nil)
     }
     
@@ -141,6 +144,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
             //assigns that UIImage to our image view.
             imageView.image = processedImage
         }
+        
+        imageView.alpha = 1
     }
     
     @objc func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
