@@ -24,6 +24,9 @@ class DetailViewController: UIViewController {
         //never use large titles in this scene
         navigationItem.largeTitleDisplayMode = .never
         
+        //checks that selected image is not empty if it is, break
+        //assert(!selectedImage!.isEmpty, "Selected image is empty")
+        
         //load seleted image into imageview if it is not nil
         if let imageToLoad = selectedImage {
             imageView.image = UIImage(named: imageToLoad)

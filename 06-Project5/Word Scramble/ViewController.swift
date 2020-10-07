@@ -66,6 +66,7 @@ class ViewController: UITableViewController {
     }
     
     func submit(_ answer: String) {
+        
         let lowerAnswer = answer.lowercased()
         
         if isPossible(word: lowerAnswer) {

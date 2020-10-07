@@ -14,13 +14,13 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addNewPerson))
         
         let defaults = UserDefaults.standard
         
+        //getting saved data from user defaults
         if let savedPeople = defaults.object(forKey: "people") as? Data {
             let jsonDecoder = JSONDecoder()
             
@@ -111,6 +111,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
         present(ac, animated: true)
     }
     
+    //save data using user defaults
     func save() {
         let jsonEncoder = JSONEncoder()
         
