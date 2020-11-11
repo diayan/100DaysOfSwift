@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B254D8AE2549D72100470DBE /* hangman1.png in Resources */ = {isa = PBXBuildFile; fileRef = B254D8A72549D72100470DBE /* hangman1.png */; };
+		B254D8AF2549D72100470DBE /* hangman3.png in Resources */ = {isa = PBXBuildFile; fileRef = B254D8A82549D72100470DBE /* hangman3.png */; };
+		B254D8B02549D72100470DBE /* hangman2.png in Resources */ = {isa = PBXBuildFile; fileRef = B254D8A92549D72100470DBE /* hangman2.png */; };
+		B254D8B12549D72100470DBE /* hangman6.png in Resources */ = {isa = PBXBuildFile; fileRef = B254D8AA2549D72100470DBE /* hangman6.png */; };
+		B254D8B22549D72100470DBE /* hangman7.png in Resources */ = {isa = PBXBuildFile; fileRef = B254D8AB2549D72100470DBE /* hangman7.png */; };
+		B254D8B32549D72100470DBE /* hangman5.png in Resources */ = {isa = PBXBuildFile; fileRef = B254D8AC2549D72100470DBE /* hangman5.png */; };
+		B254D8B42549D72100470DBE /* hangman4.png in Resources */ = {isa = PBXBuildFile; fileRef = B254D8AD2549D72100470DBE /* hangman4.png */; };
 		B2890B302503693000686A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2890B2F2503693000686A52 /* AppDelegate.swift */; };
 		B2890B322503693000686A52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2890B312503693000686A52 /* SceneDelegate.swift */; };
 		B2890B342503693000686A52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2890B332503693000686A52 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B254D8A72549D72100470DBE /* hangman1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman1.png; sourceTree = "<group>"; };
+		B254D8A82549D72100470DBE /* hangman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman3.png; sourceTree = "<group>"; };
+		B254D8A92549D72100470DBE /* hangman2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman2.png; sourceTree = "<group>"; };
+		B254D8AA2549D72100470DBE /* hangman6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman6.png; sourceTree = "<group>"; };
+		B254D8AB2549D72100470DBE /* hangman7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman7.png; sourceTree = "<group>"; };
+		B254D8AC2549D72100470DBE /* hangman5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman5.png; sourceTree = "<group>"; };
+		B254D8AD2549D72100470DBE /* hangman4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman4.png; sourceTree = "<group>"; };
 		B2890B2C2503693000686A52 /* Project7-9 Milestone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project7-9 Milestone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2890B2F2503693000686A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2890B312503693000686A52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B254D8A62549D72100470DBE /* content */ = {
+			isa = PBXGroup;
+			children = (
+				B254D8A72549D72100470DBE /* hangman1.png */,
+				B254D8A82549D72100470DBE /* hangman3.png */,
+				B254D8A92549D72100470DBE /* hangman2.png */,
+				B254D8AA2549D72100470DBE /* hangman6.png */,
+				B254D8AB2549D72100470DBE /* hangman7.png */,
+				B254D8AC2549D72100470DBE /* hangman5.png */,
+				B254D8AD2549D72100470DBE /* hangman4.png */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
 		B2890B232503693000686A52 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +91,7 @@
 				B2890B382503693300686A52 /* Assets.xcassets */,
 				B2890B3A2503693300686A52 /* LaunchScreen.storyboard */,
 				B2890B3D2503693300686A52 /* Info.plist */,
+				B254D8A62549D72100470DBE /* content */,
 			);
 			path = "Project7-9 Milestone";
 			sourceTree = "<group>";
@@ -125,8 +154,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B254D8B22549D72100470DBE /* hangman7.png in Resources */,
 				B2890B3C2503693300686A52 /* LaunchScreen.storyboard in Resources */,
+				B254D8B12549D72100470DBE /* hangman6.png in Resources */,
+				B254D8B42549D72100470DBE /* hangman4.png in Resources */,
 				B2890B392503693300686A52 /* Assets.xcassets in Resources */,
+				B254D8AE2549D72100470DBE /* hangman1.png in Resources */,
+				B254D8B02549D72100470DBE /* hangman2.png in Resources */,
+				B254D8B32549D72100470DBE /* hangman5.png in Resources */,
+				B254D8AF2549D72100470DBE /* hangman3.png in Resources */,
 				B2890B372503693000686A52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
